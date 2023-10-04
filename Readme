@@ -1,0 +1,21 @@
+```cara menyelesaikan taks squid di android menggunakan termius```
+
+1 pertama tama siapkan vps bebas spek
+
+2 buka link https://app.subsquid.io/quests dan download key dengan mengklik gey key
+
+3 klik how to terus scroll kebawah copy paste ke terminal.
+
+4 pada bagian sqd init my-quad-proc-squid -t https://github.com/subsquid-quests/quad-chain-squid anda dapat merubah contoh sqd init jesspoex1 -t https://github.com/subsquid-quests/quad-chain-squid
+
+5 lalu menginport key ke vps dengan cara membuat rerpository github dan upload key
+
+6 mengcopy file sperti gambar ini https://file.gd/YlNsVz lalu ke terminal dan git clone link yg tadI dicopy
+
+7 lalu pindahkan key ke dalam folder sqd yg tadi buat cara memindahkan https://www.kapwing.com/videos/651d2b3bc4d0a393ee86dcc3
+
+8 setelah selesai memindahkan lanjutkan dengan perintah sqd up di terminal dan ikuti intruksi github tadi
+
+9 setelah mengikuti intruksi tadi lalu cek hasil deploy tadi tunggu sampe 100% lalu matikan docker dengan cara sqd down
+
+10 selesai
