@@ -21,3 +21,29 @@
 10 selesai
 
 dan coba langkah seperti ini pada taks selanjutnya
+
+
+
+note jika mengalami stuck
+
+coba langkah ini
+CTRL + c terus sqd down
+
+sqd up
+
+npm ci
+sqd build
+sqd migration:apply
+
+Baru sqd run . Lagi
+
+jika memgunakan docker
+CTRL + c terus docker-compose down
+
+docker-compose -d
+
+npm ci
+sqd build
+sqd migration:apply
+
+Baru sqd run . Lagi
